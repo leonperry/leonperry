@@ -3,169 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leon Jonathan Kurt Perry - Portfolio</title>
+    <title>Leon Jonathan Kurt Perry - Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">LJKP</div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </div>
     </nav>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="glitch" data-text="Leon Jonathan Kurt Perry">Leon Jonathan Kurt Perry</h1>
-                <p class="tagline">First-Class Geology Graduate | Field Researcher | Problem Solver</p>
-                <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="#experience" class="btn btn-secondary">Professional Journey</a>
-                </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <div class="mouse"></div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
         <div class="container">
-            <div class="about-grid">
-                <div class="about-image">
-                    <div class="image-wrapper">
-                        <img src="images/profile.jpg" alt="Leon Perry">
-                        <div class="image-border"></div>
-                    </div>
-                </div>
-                <div class="about-content">
-                    <h2 class="section-title">About Me</h2>
-                    <p class="lead">First-Class Geology graduate with experience in field research, geospatial analysis, and lab techniques.</p>
-                    <p>Achieving the highest grade in my cohort during first year. I bring proven experience in field mapping across the UK, Europe, and USA, along with proficiency in industry-standard software including ArcGIS Pro and Kingdom Geophysics.</p>
-                    <p>My approach combines technical geological expertise with strong analytical and problem-solving skills. I thrive in both independent research and collaborative team environments, with a track record of leading multi-person projects including a 20-person high-altitude Himalayan trek.</p>
-                    <div class="quick-facts">
-                        <div class="fact">
-                            <span class="fact-number">2022-2025</span>
-                            <span class="fact-label">Graduated with First Class Honours</span>
-                        </div>
-                        <div class="fact">
-                            <span class="fact-number">2025</span>
-                            <span class="fact-label">First Class Dissertation in 'Mining Pollution'</span>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="section-title">Gallery</h2>
+            <p class="gallery-intro">A selection of my fieldwork, research, and geological photography.</p>
+            <div class="gallery-grid">
+                <img src="images/photo1.jpg" alt="Fieldwork 1">
+                <img src="images/photo2.jpg" alt="Fieldwork 2">
+                <img src="images/photo3.jpg" alt="Fieldwork 3">
+                <img src="images/photo4.jpg" alt="Fieldwork 4">
+                <!-- Add more images as needed -->
             </div>
         </div>
     </section>
 
-    <section id="experience" class="experience">
-    <div class="container">
-        <h2 class="section-title">Education & Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">May 2025 - Present</span>
-                    <h3>Delivery Driver (Self-Employed)</h3>
-                    <h4>Independent Operations</h4>
-                    <p>Managing independent operations with strict time constraints and route optimization. Developing strong organizational and time management capabilities in a fast-paced environment.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2022 - 2025</span>
-                    <h3>BSc (Hons.) Geology - First Class</h3>
-                    <h4>University of Plymouth</h4>
-                    <p>First class with honours. Achieved highest grade in cohort during first year. First class dissertation on "Mining Pollution in the River Teign". Key modules included Environmental and Resource (87%), Tectonics and Geohazards (72%), and Ocean Geoscience (71%).</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2022</span>
-                    <h3>Kitchen Porter</h3>
-                    <h4>Mother and Wild Restaurant</h4>
-                    <p>Worked in a high-pressure, fast-paced kitchen environment requiring excellent time management and adaptability. Collaborated closely with chefs and staff to maintain efficiency and communication under pressure. Developed resilience, teamwork, and attention to detail while adhering to strict hygiene and safety protocols.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2019 - 2022</span>
-                    <h3>General Assistant</h3>
-                    <h4>Langley Nurseries Garden Centre</h4>
-                    <p>Developed customer service and communication skills through direct client interaction. Built independent task management abilities for organization and planning in a retail environment.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">🗺️</div>
-                    <h3>Field Research</h3>
-                    <p>Extensive fieldwork experience across UK, Europe, and USA with expertise in mapping and sampling strategies</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🔬</div>
-                    <h3>Lab Techniques</h3>
-                    <p>XPL/PPL microscopy, pXRF methods, and radiation lab procedures</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🌍</div>
-                    <h3>Geospatial Analysis</h3>
-                    <p>Proficient in ArcGIS Pro and Kingdom Geophysics software for mapping and prospecting</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">📊</div>
-                    <h3>Data Analysis</h3>
-                    <p>Statistical analysis, quantitative methods, and technical reporting</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🎯</div>
-                    <h3>Leadership</h3>
-                    <p>Led multi-person team projects and field mapping expeditions</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">💻</div>
-                    <h3>Technical Skills</h3>
-                    <p>Microsoft Office Suite, digital research tools, AI prompt engineering, and video editing</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
-            <p class="contact-intro">Interested in working together? I'd love to hear from you - just message me on LinkedIn!</p>
-            <div class="contact-methods">
-                <a href="https://linkedin.com/in/leon-perry-plym" class="contact-card" target="_blank">
-                    <div class="contact-icon">💼</div>
-                    <h3>LinkedIn</h3>
-                    <p>leon-perry-plym</p>
-                </a>
-            </div>
-        </div>
-    </section>
-
+    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2025 Leon Jonathan Kurt Perry. All rights reserved.</p>
         </div>
     </footer>
 
+    <!-- Optional JS for smooth scrolling -->
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -176,32 +51,7 @@
                 }
             });
         });
-
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('section').forEach(section => {
-            observer.observe(section);
-        });
-
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 100) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
     </script>
 </body>
 </html>
+
