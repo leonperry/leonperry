@@ -98,16 +98,21 @@ body {
     background: var(--gradient);
     position: relative;
     overflow: hidden;
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .hero::before {
     content: '';
     position: absolute;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
-    background-size: 50px 50px;
-    animation: moveBackground 20s linear infinite;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(102, 126, 234, 0.7);
+    z-index: 0;
 }
 
 @keyframes moveBackground {
