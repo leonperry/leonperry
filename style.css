@@ -485,20 +485,22 @@ section.visible {
 }
 
 .contact-methods {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .contact-card {
-    flex: 1 1 300px;
-    max-width: 350px;
-    min-width: 250px;
+    background: rgba(255,255,255,0.1);
+    padding: 2rem;
+    border-radius: 15px;
     text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
 }
 
 .contact-card:hover {
